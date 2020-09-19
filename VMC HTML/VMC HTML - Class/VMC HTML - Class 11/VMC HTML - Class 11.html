@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMC HTML - Class 11</title>
+</head>
+<body>
+    <h2>Student Details Form</h2>
+    <form>
+        <fieldset>
+            <legend><h3>Student's Interests</h3></legend>
+            <label for="colddrink"><b>Favorite Cold Drink: </b></label>
+            <input type="text" list="colddrink">
+            <datalist id="colddrink">
+                <option value="Pepsi"></option>
+                <option value="Thumbs Up"></option>
+                <option value="Coca Cola"></option>
+                <option value="Sprite"></option>
+            </datalist>
+            <br>
+            <br>
+            <label for="fruits"><b>Favorite Fruits: </b></label>
+            <select name="fruits" id="fruits" multiple size="2">
+                <option value="select">Select</option>
+                <optgroup label="Arsh's favorites">
+                    <option value="apple">Apple</option>
+                    <option value="banana">Banana</option>
+                </optgroup>
+                <optgroup label="Arsh eat sometimes">
+                    <option value="grapes">Grapes</option>
+                </optgroup>
+                <optgroup label="Arsh's not favorites">
+                    <option value="mango">Mango</option>
+                    <option value="orange">Orange</option>
+                    <option value="pineapple" disabled>Pineapple</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Credentials</h3></legend>
+            <label for="username"><b>Username: </b></label>
+            <input type="text" name="username" id="username" minlength="4" maxlength="14" placeholder="E.g., arshsaxena">
+            <br>
+            <br>
+            <label for="password"><b>Password: </b></label>
+            <input type="password" name="password" id="password" minlength="8" pattern="[Aa]rsh[Ss]axena" placeholder="Password">
+        </fieldset>
+        <fieldset>
+            <legend><h3>Contact Details</h3></legend>
+            <label for="name"><b>Name: </b></label>
+            <input type="text" name="name" id="name" pattern="[A-Z]" maxlength="100">
+            <br>
+            <br>
+            <label for="phone"><b>Phone Number: </b></label>
+            <input type="tel" name="phone" id="phone" pattern="[1-9]{1}[0-9]{9}" placeholder="XXXXX12345">
+            <br>
+            <br>
+            <label for="address"><b>Address: </b></label>
+            <textarea name="address" id="address" cols="15" rows="2">Type here...</textarea>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Meter</h3></legend>
+            <label for="fuel">Fuel Meter: </label>
+            <meter name="fuel" id="fuel" min="0" max="100" value="100" low="30" high="60" optimum="80"></meter>
+            <br>
+            <label for="progress">Progess: </label>
+            <progress name="progress" id="progress" min="0" max="100" value="75" high="100"></progress>
+        </fieldset>
+        <br>
+        <label for="submit"></label>
+        <input type="submit" name="select" id="submit">
+    </form>
+</body>
+</html>

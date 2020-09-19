@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMC HTML - Class 10</title>
+</head>
+<body>
+    <h1 align="center">Testing Form</h1>
+    <form>
+        <fieldset>
+            <legend><b>Personal Details</b></legend>
+            <label for="name">Name: </label>
+            <input name="name" id="name" required placeholder="Enter name here">
+            <br>
+            <br>
+            <label for="dob">Date of Birth: </label>
+            <input name="dob" id="dob" type="date">
+            <br>
+            <br>
+            <label for="gender">Gender: &nbsp; &nbsp;</label>
+            Male
+            <input type="radio" name="gender" id="gender">
+            Female
+            <input type="radio" name="gender" id="gender">
+            Other
+            <input type="radio" name="gender" id="gender">
+            <br>
+            <br>
+            <label for="mname">Mother's name: </label>
+            <input name="mname" id="mname" required placeholder="Enter name here">
+            <br>
+            <br>
+            <label for="fname">Father's name: </label>
+            <input name="fname" id="fname" required placeholder="Enter name here">
+            <br>
+            <br>
+            <label for="add">Address: </label>
+            <input name="add" id="fadd" required placeholder="Enter address here">    
+        </fieldset> 
+        <br>
+        <fieldset>
+            <legend><b>Contact Information</b></legend>
+            <label for="tel">Phone Number: +91  </label>
+            <input name="tel" id="tel" type="tel" placeholder="XXXXX12345 (Indian numbers only)">
+            <br>
+            <br>            
+            <label for="email">Email: </label>
+            <input name="email" id="email" type="email" placeholder="abc@xyz.com">
+            <br>
+            <br>
+            <label for="pass">Password: </label>
+            <input type="password" name="pass" id="pass" placeholder="Password (You'll be signed in)">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Education Details</b></legend>
+                <label for="roll">Roll Number: </label>
+                <input type="number" name="roll" id="roll">
+                <br>
+                <br>
+                <label for="class">Class: </label>
+                <select name="class" id="class">
+                    <option value="nur">Nursery</option>
+                    <option value="kg">K.G.</option>
+                    <option value="perp">Prep</option>
+                    <option value="I">I</option>
+                    <option value="II">II</option>
+                    <option value="III">III</option>
+                    <option value="IV">IV</option>
+                    <option value="V">V</option>
+                    <option value="VI">VI</option>
+                    <option value="VII">VII</option>
+                    <option value="VIII">VIII</option>
+                    <option value="IX">IX</option>
+                    <option value="X">X</option>
+                    <option value="XI">XI</option>
+                    <option value="XII">XII</option>
+                </select>
+                <br>
+                <br>
+                <label for="steam">If you are in class XI, select your steam: </label>
+                <input type="radio" name="steam" id="steam">
+                Science
+                <select name="class" id="class">
+                    <option value="ifsci">Select</option>
+                    <option value="pcb">PCB</option>
+                    <option value="pcm">PCM</option>
+                    <option value="pcmb">PCMB</option>
+                </select>
+                <input type="radio" name="steam" id="steam">
+                Commerce
+                <input type="radio" name="steam" id="steam">
+                Arts
+                <br>
+                <br>
+                <label for="school">School Name: </label>
+                <input type="text" name="school" id="school" placeholder="abc xyz School">
+                <br>
+                <br>
+                <label for="slc">School Leaving Certificate (if any): </label>
+                <input type="file" name="slc" id="slc">
+                <br>
+                <br>
+                <label for="coaching">Coaching/Tuition Name (if any): </label>
+                <input type="text" name="coaching" id="coaching">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Interests</b></legend>
+            <label for="color">Favourite color: </label>
+            <input type="color" name="color" id="color">
+            <br>
+            <br>
+            <label for="subject">Favourite Subject: </label>
+            <select name="subject" id="subject">
+                <option value="bio">Select</option>
+                <option value="bio">Biology</option>
+                <option value="chem">Chemistry</option>
+                <option value="civ">Civics</option>
+                <option value="cs">Computer Science</option>
+                <option value="eco">Economics</option>
+                <option value="eng">English</option>
+                <option value="geo">Geography</option>
+                <option value="hin">Hindi</option>
+                <option value="his">History</option>
+                <option value="it">Information Technology</option>
+                <option value="maths">Mathematics</option>
+                <option value="pcb">PCB (Physics+Chemistry+Biology)</option>
+                <option value="pcm">PCM (Physics+Chemistry+Mathematics)</option>
+                <option value="pcmb">PCMB (Physics+Chemistry+Mathematics+Biology)</option>
+                <option value="phy">Physics</option>
+                <option value="sci">Science (Biology+Chemistry+Physics)</option>
+                <option value="sst">Social Studies (Civics+Economics+History+Geography)</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Social Handles</b></legend>
+            <label for="ig">Instagram (if any): </label>
+            <input type="text" name="ig" id="ig">
+            <br>
+            <br>
+            <label for="tw">Twitter (if any): </label>
+            <input type="text" name="tw" id="tw">
+            <br>
+            <br>
+            <label for="yt">YouTube channel (if any): </label>
+            <input type="text" name="yt" id="yt">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Date-time</b></legend>
+            <label for="date">Date (when submitting form): </label>  
+            <input type="date" id="date" name="date">
+            <br>
+            <br>
+            <label for="time">Time (when submitting form): </label>  
+            <input type="time" id="time" name="time">
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
+</html>

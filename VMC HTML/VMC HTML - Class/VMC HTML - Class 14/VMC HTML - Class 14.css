@@ -1,0 +1,77 @@
+body{
+    text-align: justify;
+}
+.fname{
+    text-align: center;
+    text-shadow: 4px 4px green;
+}
+.lname{
+    text-align: center;
+    text-shadow: -4px -4px 4px red;
+}
+.fullname{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px -5px darkcyan, -5px 5px sienna;
+}
+.name1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0 0 20px #fefcc9,
+                 10px -10px 30px #feec85,
+                 -20px -20px 40px #ffae34,
+                 20px -30px 35px #ec760c,
+                 -20px -40px 40px #cd4606,
+                 0 -50px 65px #973716,
+                 10px -70px 70px #451b0e;
+}
+.about h2{
+    color: goldenrod;
+}
+.p1{
+    font-size: xx-small;
+}
+.p2{
+    font-size: x-small;
+}
+.p3{
+    font-size: small;
+}
+.p4{
+    font-size: medium;
+}
+.p5{
+    font-size: x-large;
+}
+.p6{
+    font-size: xx-large;
+}
+.p7{
+    font-size: xxx-large;
+}
+.p8{
+    font-size: 25px;
+}
+.p9{
+    font-size: 50px;
+}
+.skills p span.highlight{
+    font-style: italic;
+    font-style: underline;
+    font-weight: bolder;
+}
+.skills ul .l1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.skills ul .l2{
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.skills ul .l3{
+    font-weight: normal;
+}
+.skills ul .l4{
+    font-weight: 900;
+    text-transform: capitalize;
+}

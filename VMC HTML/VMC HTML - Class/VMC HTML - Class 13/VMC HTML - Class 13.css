@@ -1,0 +1,62 @@
+body{
+    color: white;
+    background-color:  black;
+}
+.linkcbjr{
+    text-decoration: none;
+    color: lightcoral;
+}
+h1{
+    color: red;
+    background-color: white;
+    text-align: center;
+    text-decoration: underline blue;
+}
+.h21{
+    color: green;
+    text-align: left;
+    text-decoration: overline;
+}
+.h21p{
+    color: limegreen;
+}
+#h22{
+    color: orange;
+    text-align: right;
+    text-decoration: overline;
+}
+.h22p{
+    color: orangered;
+    text-decoration: line-through;
+}
+.div1{
+    color: lightskyblue;
+    text-align: justify;
+}
+.rtol{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+.ltor{
+    direction: ltr;
+}
+.rtol1{
+    direction: rtl;
+}
+p.p1{
+    color: pink;
+    text-indent: 75px;
+    text-align: justify;
+    line-height: 25px;
+}
+p.p2{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 25px;
+    text-align: justify;
+    font-family: Samsung Sharp Sans;
+}
+p.p3{
+    font-family: Kohinoor Devanagari, SF Pro Text;
+    text-align: justify; 
+}

@@ -1,0 +1,31 @@
+/* External style */
+h3{
+    color: goldenrod
+}
+#p2{
+    color: skyblue
+}
+#p3{
+    color: darkolivegreen;
+}
+.firstpara{
+    color: orangered;
+}
+.secondpara{
+    color: grey;
+}
+.lastname{
+    color: peru;
+}
+.paraemphasis{
+    color: #4d92c4;
+}
+.h4{
+    color: rgb(178, 26, 143);
+}
+body{
+    background-color: black;
+}
+.para{
+    color: white;
+}
