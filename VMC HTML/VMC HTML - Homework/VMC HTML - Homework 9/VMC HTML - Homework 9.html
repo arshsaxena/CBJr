@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMC HTML - Homework 9</title>
+</head>
+<body bgcolor="#136638">
+    <h1 align="center" style="color: white;">Reservation Form</h1>
+    <form style="color: white;"> 
+        <fieldset>
+            <legend><h3>GENERAL INFORMATION</h3></legend>
+            <label for="checkin"><b><span style="color: yellow;">*</span>Check-in: </b></label>
+            <input type="date" name="checkin" id="checkin" required>
+            <input type="time" name="checkin" id="checkin" required>
+            <br>
+            <br>
+            <label for="checkout"><b><span style="color: yellow;">*</span>Check-out: </b></label>
+            <input type="date" name="checkout" id="checkout" required>
+            <input type="time" name="checkout" id="checkout" required>
+            <br>
+            <br>
+            <label for="nights"><b><span style="color: yellow;">*</span>Number of nights: </b></label>
+            <input type="number" name="nights" id="nights" required>
+            <br>
+            <br>
+            <label for="rooms"><b><span style="color: yellow;">*</span>Number of rooms: </b></label>
+            <select name="room" id="room">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+            <br>
+            <label for="adults"><b><span style="color: yellow;">*</span>Adults (12 years+): </b></label>
+            <select id="adults" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <br>
+            <br>
+            <label for="children"><b>Children (below 12 years): </b></label>
+            <select id="children">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+            <br>
+            <label for="infant"><b>Infants: </b></label>
+            <select id="infants">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend><h3>HOTEL & ROOM DETAILS</h3></legend>
+            <label for="hotelname"><b>Hotel name: </b>The Great Indian Palace</label>
+            <br>
+            <br>
+            <label for="hotelcity"><b><span style="color: yellow;">*</span>Hotel city: </b></label>
+            <select name="hotelcity" id="hotelcity" required>
+                <option value="select">Select</option>
+                <option value="ahemdabad" disabled>Ahemdabad (Coming Soon)</option>
+                <option value="bareilly">Bareilly</option>
+                <option value="bengaluru">Bengaluru</option>
+                <option value="bhopal" disabled>Bhopal (Coming Soon)</option>
+                <option value="chennai" disabled>Chennai (Coming Soon)</option>
+                <option value="gurugram">Gurugram</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="lucknow">Lucknow</option>
+                <option value="kolkata" disabled>Kolkata (Coming Soon)</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="newdelhi">New Delhi</option>
+                <option value="noida">Noida</option>
+                <option value="thiruvananthapuram" disabled>Thiruvananthapuram (Coming Soon)</option>
+            </select>
+            <br>
+            <br>
+            <label for="roomtype"><b>Room type: </b></label>
+            <input type="radio" name="roomtype">
+            Dormitry
+            <input type="radio" name="roomtype">
+            Classic
+            <input type="radio" name="roomtype">
+            Delux
+            <input type="radio" name="roomtype">
+            Elite
+            <input type="radio" name="roomtype">
+            Flat
+            <input type="radio" name="roomtype">
+            Villa
+            <br>
+            <br>
+            <label for="bedtype"><b>Bed type: </b></label>
+            <input type="radio" name="bedtype">
+            Single
+            <input type="radio" name="bedtype">
+            Double
+            <input type="radio" name="bedtype">
+            Queen-size
+            <input type="radio" name="bedtype">
+            King-size
+            <br>
+            <br>
+            <label for="ac"><b>Air conditioner: </b></label>
+            <input type="radio" name="ac">
+            AC room
+            <input type="radio" name="ac">
+            Non-AC room
+            <br>
+            <br>
+            <label for="food"><b>Preferable food: </b></label>
+            <select name="food" id="food">
+                <option value="select">Select</option>
+                <option value="veg">Veg</option>
+                <option value="nonveg">Non-veg</option>
+            </select>
+            <br>
+            <br>
+            <label for="other"><b><span style="color: yellow;">*</span>Other: </b></label>
+            <input type="checkbox">
+            Smoking
+            <input type="checkbox">
+            Alcohol
+            <input type="checkbox">
+            None
+            <br>
+            <br>
+            <label for="purpose"><b><span style="color: yellow;">*</span>Purpose of visit: </b></label>
+            <br>
+            <textarea name="purpose" id="purpose" cols="75" rows="5" placeholder="What is your purpose of visit?" required></textarea>
+            <br>
+            <br>
+            <label for="progress"><b>Trip progress (will be available in the app): </b></label>
+            <progress name="progress" id="progress" min="0" max="100" value="10"></progress>
+        </fieldset>
+        <fieldset>
+            <legend><h3>TRAVELLAR(S) INFORMATION</h3></legend>
+            <fieldset>
+                <legend><b>Travellar 1</b></legend>
+                <label for="name"><b><span style="color: yellow;">*</span>First name: </b></label>
+                <input type="text" maxlength="100">
+                &nbsp; 
+                <label for="name"><b><span style="color: yellow;">*</span>Last name: </b></label>
+                <input type="text" maxlength="100">
+                <br>
+                <br>
+                <label for="dob"><b><span style="color: yellow;">*</span>Date of Birth: </b></label>
+                <input type="date">
+                <br>
+                <br>
+                <label for="phone"><b><span style="color: yellow;">*</span>Phone number: </b>+91</label>
+                <input type="tel" name="phone" id="phone" pattern="[1-9]{1}[0-9]{9}" placeholder="XXXXX12345" required>
+                <br>
+                <br>
+                <label for="altphone"><b><span style="color: yellow;">*</span>Alternate phone number: </b>+91</label>
+                <input type="tel" name="altphone" id="altphone" pattern="[1-9]{1}[0-9]{9}" placeholder="XXXXX12345" required>
+                <br>
+                <br>
+                <label for="address"><b><span style="color: yellow;">*</span>Address: </b></label>
+                <br>
+                <textarea name="address" id="address" cols="25" rows="3" placeholder="Type your address here..." required></textarea>
+                <br>
+                <br>
+                <label for="gender"><b><span style="color: yellow;">*</span>Gender: </b></label>
+                <input type="radio" name="gender" id="gender">
+                Male
+                <input type="radio" name="gender" id="gender">
+                Female
+                <input type="radio" name="gender" id="gender">
+                Other
+                <br>
+                <br>
+                <label for="id"><b><span style="color: yellow;">*</span>ID Proof: </b></label>
+                <select name="id" id="id">
+                    <option value="Select">Select</option>
+                    <option value="aadhar">Aadhar Card</option>
+                    <option value="pan">Pan Card</option>
+                    <option value="passport">Passport</option>
+                    <option value="drivingliscense">Driving Liscense</option>
+                </select>
+                <input type="text" name="id" id="idno." pattern="[1-9]{1}[0-9]{9}" placeholder="ID number">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><b>Travellar 2</b></legend>
+                <label for="name"><b>Name: </b></label>
+                <input type="text" pattern="[A-Z][a-z]" maxlength="100">
+                <br>
+                <br>
+                <label for="dob"><b>Date of Birth: </b></label>
+                <input type="date">
+                <br>
+                <br>
+                <label for="gender"><b>Gender: </b></label>
+                <input type="radio" name="gender" id="gender">
+                Male
+                <input type="radio" name="gender" id="gender">
+                Female
+                <input type="radio" name="gender" id="gender">
+                Other
+                <br>
+                <br>
+                <label for="id"><b>ID Proof: </b></label>
+                <select name="id" id="id" required>
+                    <option value="Select">Select</option>
+                    <option value="aadhar">Aadhar Card</option>
+                    <option value="pan">Pan Card</option>
+                    <option value="passport">Passport</option>
+                    <option value="drivingliscense">Driving Liscense</option>
+                </select>
+                <input type="text" name="id" id="idno." pattern="[1-9]{1}[0-9]" placeholder="ID number">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><b>Travellar 3</b></legend>
+                <label for="name"><b>Name: </b></label>
+                <input type="text" pattern="[A-Z][a-z]" maxlength="100">
+                <br>
+                <br>
+                <label for="dob"><b>Date of Birth: </b></label>
+                <input type="date">
+                <br>
+                <br>
+                <label for="gender"><b>Gender: </b></label>
+                <input type="radio" name="gender" id="gender">
+                Male
+                <input type="radio" name="gender" id="gender">
+                Female
+                <input type="radio" name="gender" id="gender">
+                Other
+                <br>
+                <br>
+                <label for="id"><b>ID Proof: </b></label>
+                <select name="id" id="id" required>
+                    <option value="Select">Select</option>
+                    <option value="aadhar">Aadhar Card</option>
+                    <option value="pan">Pan Card</option>
+                    <option value="passport">Passport</option>
+                    <option value="drivingliscense">Driving Liscense</option>
+                </select>
+                <input type="text" name="id" id="idno." pattern="[1-9]{1}[0-9]" placeholder="ID number">
+            </fieldset>
+            <h3 align="center">Add More (+)</h3>
+        </fieldset>
+        <fieldset>
+            <legend><h3>VEHICLE RENT</h3></legend>
+            <b>Do you want to rent a vehicle? If yes, select the required options else ignore.</b>
+            <br>
+            <br>
+            <label for="vechiletype"><b>Vehicle type: </b></label>
+            <input type="radio">
+            Cycle
+            <input type="radio">
+            2-wheeler
+            <input type="radio">
+            4-wheeler
+            <br>
+            <br>
+            If a 2-wheeler,
+            <input type="radio">
+            Scooty
+            <input type="radio">
+            Bike
+            <input type="radio">
+            Bullet
+            <br>
+            <b>OR</b>
+            <br>
+            if a 4-wheeler,
+            <input type="radio">
+            2-seater
+            <input type="radio">
+            4-seater
+            <input type="radio">
+            6-seater
+            <input type="radio">
+            8-seater.
+            <br>
+            <br>
+            <label for="fuel"><b>Fuel required (in liters): </b></label>
+            <meter name="fuel" id="fuel" min="0" max="20" value="18" low="1" high="20" optimum="13"></meter>
+            <br>
+            <br>
+            <b>Do you want a driver?</b>
+            <input type="radio">
+            Yes
+            <input type="radio">
+            No
+        </fieldset>
+        <fieldset>
+            <legend><h3>CREDENTIALS</h3></legend>
+            <label for="email"><b><span style="color: yellow;">*</span>Email: </b></label>
+            <input type="email" name="email" id="email" placeholder="abc" required>
+            <br>
+            <br>
+            <label for="password"><b><span style="color: yellow;">*</span>Password: </b></label>
+            <input type="password" name="password" id="password" minlength="8" maxlength="28" placeholder="Password" required>  
+        </fieldset>
+        <br>
+        <span style="color: yellow;">*</span> required
+        <br>
+        <br>
+        <input type="checkbox" name="tnc" id="tnc">
+        <label for="tnc"><b>I have read and agree all terms and conditions.</b></label>
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT FORM">
+    </form>
+</body>
+</html>

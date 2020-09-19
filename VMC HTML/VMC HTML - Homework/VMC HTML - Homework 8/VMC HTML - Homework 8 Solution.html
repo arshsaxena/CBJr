@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMC HTML - Homework 8</title>
+</head>
+<body bgcolor="#a4b0bd">
+    <h1>My Biodata</h1>
+    <form>
+        <fieldset>
+            <legend><h3>PERSONAL DETAILS</h3></legend>
+            <b><label for="fname">First Name: </label></b>
+            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            <b><label for="lname">Last Name: </label></b>
+            <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+            <br>
+            <br>
+            <b><label for="gender">Gender: &nbsp; &nbsp;</label></b>
+            Male
+            <input type="radio" name="gender" id="gender" required>
+            Female
+            <input type="radio" name="gender" id="gender" readonly>
+            Other
+            <input type="radio" name="gender" id="gender" required>
+            <br>
+            <br>
+            <b><label for="dob">Date of Birth: </label></b>
+            <input type="date" name="dob" id="dob" required>
+            <br>
+            <br>
+            <b><label for="email">Email ID: </label></b>
+            <input type="email" name="email" id="email" placeholder="abce@email.com" required>
+            <br>
+            <br>
+            <b><label for="mob">Phone Number: </b>+91</label>
+            <input type="tel" name="mob" id="mob" placeholder="XXXXX12345" required>
+            <br>
+            <br>
+            <b><label for="height">Height: </label></b>
+            <input type="text" name="text" id="text" required>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend><h3>EDUCATION</h3></legend>
+            <b><label for="school">School: </label></b>
+            <input type="text" name="school" id="school" placeholder="Your School Name" required>
+            <br>
+            <br>
+            <b><label for="class">Class: </label></b>
+            <input type="number" name="class" id="class" placeholder="Your Class" required>
+            <br>
+            <br>
+            <b><label for="stream">Stream: </label></b>
+            <select name="stream" id="stream">
+                <option value="stream">Select Your Stream</option>
+                <option value="pcm">PCM</option>
+                <option value="pcb">PCB</option>
+                <option value="pcmb">PCMB</option>
+                <option value="arts">Arts</option>
+                <option value="commerce">Commerce</option>
+            </select>
+            <br>
+            <br>
+            <b><label for="marksheet">Marksheet: </label></b>
+            <input type="file" name="marksheet" id="marksheet">
+            <br>
+        </fieldset>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
