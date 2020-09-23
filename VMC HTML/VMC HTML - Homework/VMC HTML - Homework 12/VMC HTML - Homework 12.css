@@ -1,0 +1,115 @@
+.body1{
+    background-image: linear-gradient(238deg,#ffca6b 0,#e6986c 44%,#ee597d 100%);
+    background-repeat: no-repeat;
+    text-align: justify;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.body1img1{
+    margin: 0px;
+}
+.p1{
+    text-align: center;
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -.009em;
+    color: #361810;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.greetingtext{
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    color: #4f2318;
+    line-height: 1.32;
+    padding-top: 14px;
+}
+.arshsaxena{
+    text-decoration: none;
+    color: #4f2318;
+}
+.about{
+    color: #0070c9;
+    font-size: 35px;
+}
+.p3{
+    background-color: #4f2318;
+    border: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+.p3parts{
+    color: #68cc45;
+    font-weight: 700;
+    font-size: 30px;
+}
+.products{
+    color: #ac39ff;
+    font-size: 35px;
+}
+.p4{
+    background-color: #4f2318;
+    border: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    word-spacing: 4px;
+}
+.p4note{
+    font-size: 15px;
+}
+.producthead{
+    color: #febe30;
+    font-size: 30px;
+}
+.p5{
+    background-color: #4f2318;
+    border: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    word-spacing: 4px;
+}
+.india{
+    color: #68cc45;
+    font-size: 35px;
+}
+.applestore{
+    color: #f84e5f;
+    font-size: 30px;
+}
+.launchdate{
+    color: #f84e5f;
+    font-size: 30px;
+}
+.p6{
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    background-color: #4f2318;
+    border: white;
+    border-radius: 15px;
+    padding: 40px;
+    margin: 0px;
+}
+.p61{
+    text-shadow: 8px 8px #febe30, 16px 16px #0070c9, 24px 24px #68cc45, 32px 32px #f84e5f;
+}
+.p62{
+    text-shadow: 8px -8px #febe30, 16px -16px #0070c9, 24px -24px #68cc45, 32px -32px #f84e5f;
+}
+.p63{
+    text-shadow: -8px 8px #febe30, -16px 16px #0070c9, -24px 24px #68cc45, -32px 32px #f84e5f;
+}
+.p64{
+    text-shadow: -8px -8px #febe30, -16px -16px #0070c9, -24px -24px #68cc45, -32px -32px #f84e5f;
+}
