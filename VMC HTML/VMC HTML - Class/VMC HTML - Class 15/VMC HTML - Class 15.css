@@ -1,0 +1,25 @@
+body{
+    text-align: justify;
+    background-position: top;
+    background-size: cover;
+    margin-block-start: 0px;
+    background-image: url(bmw_car_steering_wheel_170115_3840x2400.jpg);
+}
+h1{
+    background-color: lightskyblue;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-top: 30px;
+    text-align: center;
+}
+h2{
+    background-color: lightgreen;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
