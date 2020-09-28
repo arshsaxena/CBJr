@@ -1,0 +1,91 @@
+.mainheading{
+    text-align: center;
+    border-width: 10px;
+    border-color: darkcyan;
+    border-top-style: dashed;
+    border-top-width: 5px;
+    border-bottom-style: dotted;
+    border-bottom-width: 10px;
+    border-left-style: solid;
+    border-left-width: 15px;
+    border-right-style: double;
+    border-right-width: 20px;
+}
+.div1{
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red;
+}
+.div2{
+    text-align: center;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: green;
+}
+.div3{
+    text-align: center;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: orange;
+}
+.div4{
+    text-align: center;
+    border-style: double;
+    border-width: 20px;
+    border-color: blueviolet;
+}
+.div5{
+    height: 100px;
+    width: 100px;
+    border-width: 20px;
+    border-style: dashed;
+    border-color: palevioletred;
+}
+.div6{
+    height: 100px;
+    width: 100px;
+    border-width: 20px;
+    border-style: dotted;
+    border-color: brown;
+    border-radius: 50%;
+}
+.div7{
+    height: 100px;
+    width: 100px;
+    border-width: 20px;
+    border-style: dotted;
+    border-color: peru;
+    border-radius: 50%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 10%;
+    border-top-left-radius: 80%;
+    background-color: seagreen;
+    text-align: center;
+    color: white;
+}
+.div8{
+    height: 100px;
+    width: 100px;
+    border-width: 20px;
+    border-color: brown;
+    border-radius: 50%;
+    background-color: royalblue;
+}
+.div9{
+    height: 200px;
+    width: 200px;
+    border-width: 10px;
+    border-style: dotted;
+    border-color: palevioletred;
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 90%;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    box-shadow: 50px 20px 20px 30px rgb(119, 45, 3);
+    /* box-shadow: horizontal vertical blur-radius spread-radius color */
+}
