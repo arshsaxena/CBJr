@@ -1,0 +1,53 @@
+.unknownperson:hover{
+    color: green;
+    background-color: yellow;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: seagreen;
+}
+a:hover{
+    color: sienna;
+}
+input#class:focus{
+    background-color: firebrick;
+    color: white;
+    border: goldenrod;
+    border-style: double;
+    border-width: 3px;
+}
+.edu-class:focus-within{
+    background-color: hotpink;
+    color: indigo;
+}
+input:checked + label{
+    color: crimson;
+}
+input[type="radio"]:checked{
+    box-shadow: 0 0 0 2px green;
+}
+input[type="checkbox"]:checked{
+    box-shadow: 0 0 0 2px red;
+}
+option:checked{
+    box-shadow: 0 0 0 2px blue;
+}
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    background-color: yellow;
+}
+button:active{
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: orangered;
+    color: white;
+}
