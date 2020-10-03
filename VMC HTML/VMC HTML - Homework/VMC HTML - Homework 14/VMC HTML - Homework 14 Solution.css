@@ -1,0 +1,89 @@
+body{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+}
+aside{
+    float: right;
+    padding: 3px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 25px;
+    background-image: linear-gradient(356deg, #138808 0%, #ffffff 44%, #ff8000 100% );
+    border-width: 5px;
+    width: 20%;
+    font-size: 18px;
+}
+.logo{
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.blocks{
+    padding: 12px;
+    border-style: solid;
+    border-color: rgba(12, 12, 12, 0);
+    border-radius: 15px;
+    background-color: rgba(12, 12, 12, 0.747);
+    margin: 6px;
+    font-size: 18px;
+}
+.head{
+    color: orangered;
+    font-size: 23px;
+}
+.headings{
+    color: goldenrod;
+}
+.about{
+    margin-right: 300px;
+    border-radius: 25px;
+    color: rgb(12, 12, 12);
+    border-color: green;
+    border-style: solid;
+    background-image: linear-gradient(283deg, #138808 0%, #ffffff 44%, #ff8000 100% );
+    border-width: 5px;
+    text-align: justify;
+    padding: 5px;
+}
+.history{
+    margin-right: 300px;
+    border-radius: 25px;
+    color: rgb(12, 12, 12);
+    border-color: green;
+    border-style: solid;
+    background-image: linear-gradient(283deg, #138808 0%, #ffffff 44%, #ff8000 100% );
+    border-width: 5px;
+    text-align: justify;
+    padding: 5px;
+}
+.para{
+    padding: 5px;
+    border-style: solid;
+    border-color: rgba(12, 12, 12, 0);
+    border-radius: 15px;
+    background-color: rgba(12, 12, 12, 0.747);
+    margin: 5px;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.copyrightlink{
+    text-decoration: none;
+    color: lawngreen;
+}
+.copyrightlink{
+    text-decoration: none;
+    color: lawngreen;
+}
+.pagebody{
+    border-style: solid;
+    border-width: 10px;
+    border-color: orangered;
+    background-color: rgb(32, 31, 31);
+    padding: 10px;
+    border-radius: 35px;
+}
