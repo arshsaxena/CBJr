@@ -1,6 +1,6 @@
 # VMC-CBJr
 These folders contain all the class notes, homework (assignments), and homework solution of: <br>
-<b>Python: </b>Manmohan Bhaiya and Rahul Bhaiya,
+<b>Python: </b>Manmohan Bhaiya and Rahul Bhaiya, <br>
 <b>HTML, CSS, and JavaScript (Web Development): </b>Sanjeet Ma'am and Mosina Ma'am, and
 <b>Python Game Development (Pygames): </b> Rishab Bhaiya <br>
 taught on Coding Blocks Junior YouTube channel. <br>
