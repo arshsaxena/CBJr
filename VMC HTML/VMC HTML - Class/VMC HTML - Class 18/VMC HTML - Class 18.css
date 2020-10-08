@@ -1,0 +1,54 @@
+body{
+    text-align: justify;
+}
+div.about p:first-child{
+    color: tomato;
+    font-family: Samsung Sharp Sans;
+}
+div.about p:last-child{
+    color: yellowgreen;
+    font-weight: 500;
+}
+div.about p:first-of-type{
+    background-color: yellow;
+    font-family: Samsung Sharp Sans;
+    color: blue;
+}
+div.about div:last-of-type{
+    background-color: pink;
+    font-family: Samsung Sharp Sans;
+    color: red;
+}
+div.about em:only-of-type{
+    color: orangered;
+}
+div.form-field input:valid{
+    background-color: lightgreen;
+}
+div.form-field input:invalid{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+div.form-field1 input:out-of-range{
+    background-color: blue;
+    color: white;
+} 
+div.form-field1 input:in-range{
+    background-color: yellowgreen;
+}
+div.form-field1 input:out-of-range+label::after{
+    content: 'Wrong guess';
+}
+div.form-field1 input:in-range+label::before{
+    content: 'Correct ';
+}
+div.form-field2 input:placeholder-shown{
+    border: violet;
+    border-width: 5px;
+    border-style: solid;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    font-family: Slate for OnePlus;
+}
