@@ -5,5 +5,5 @@ These repository contain all the class notes, homeworks (assignments), and their
 <b>HTML, CSS, and JavaScript (Web Development):</b> Sanjeet Ma'am and Mosina Ma'am.
 <br><br>
 VMC is there in the name because I came to know about <b>Coding Blocks Junior</b> through <b>Vidyamandir Classes (VMC)</b>. <br><br>
-Everything is provided by <a href=https://www.instagram.com/arsh.saxena02>Arsh Saxena</a>.
+Everything is provided by <b><a href=https://www.instagram.com/arsh.saxena02>Arsh Saxena</a></b>.
 
