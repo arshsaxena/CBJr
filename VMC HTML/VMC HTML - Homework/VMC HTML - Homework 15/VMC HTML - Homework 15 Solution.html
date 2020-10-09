@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMC HTML - Homework 15</title>
+    <link rel="stylesheet" href="VMC HTML - Homework 15 Solution.css">
+</head>
+<body>
+    <nav class="nav1">
+        <b>
+            Search &nbsp; | &nbsp; Register &nbsp; | &nbsp; About us &nbsp; | &nbsp; Contact us
+        </b>
+    </nav>
+    <header>
+        <span style="color: rgb(86, 163, 250)">Earth</span> <span style="color: #ff9081;">Citizens'</span> <span style="color: chartreuse;">Database</span>
+    </header>
+    <br>
+    <form action="./VMC HTML - Homework 15 Solution Part 2.html" style="letter-spacing: 1px;" id="form1">
+        <fieldset>
+            <legend><b>Personal Details</b></legend>
+            <div class="div1">
+                <label for="photo"><b><span style="color: red;">*</span>Photograph: </b></label>&nbsp;
+                <input type="file" name="photo" id="photo" style="border-radius: 0px;" required>
+                <br>
+                <label for="nationality"><b><span style="color: red;">*</span>Nationality: </b></label>
+                <input type="text" required>
+                <br>
+                <label for="firstname"><b><span style="color: red;">*</span>First Name: </b></label>&nbsp;
+                <input type="text" id="firstname" name="first name" required>
+                &nbsp; &nbsp; &nbsp; 
+                <label for="lastname"><b><span style="color: red;">*</span>Last Name: </b></label>&nbsp;
+                <input type="text" id="lastname" name="lastname" required>
+                <br>
+                <label for="dob"><b><span style="color: red;">*</span>Date of Birth: </b></label>&nbsp;
+                <input type="date" required>
+                <br>
+                <label for="age"><b><span style="color: red;">*</span>Age: </b></label>&nbsp;
+                <input type="number" name="age" id="age" style="width: 50px;" required> years old
+                <br>
+                <label for="gender"><b><span style="color: red;">*</span>Gender: </b></label>
+                <input type="radio" name="gender" id="gender" required>&nbsp; Male
+                <input type="radio" name="gender" id="gender" required>&nbsp; Female
+                <input type="radio" name="gender" id="gender" required>&nbsp; Other
+                <br>
+                <label for="hometown"><b><span style="color: red;">*</span>Hometown: </b></label>&nbsp;
+                <select name="hometown" id="hometown" style="border-radius: 20px;" required>
+                    <option value="select">Select</option>
+                    <option value="lko">Lucknow, Uttar Pradesh</option>
+                    <option value="be">Bareilly, Uttar Pradesh</option>
+                    <option value="hyd">Hyderabad, Telangana</option>
+                    <option value="bom">Mumbai, Maharashtra</option>
+                    <option value="noida">Noida, Uttar Pradesh</option>
+                    <option value="ndls">New Delhi</option>
+                    <option value="haldwani">Haldwani, Uttarakhand</option>
+                    <option value="chennai">Chennai, Tamil Nadu</option>
+                    <option value="kolkata">Kolkata, West Bengal</option>
+                    <option value="bengaluru">Bengaluru, Karnataka</option>
+                    <option value="chandigarh">Chandigarh</option>
+                    <option value="gurugram">Gurugram, Harayana</option>
+                    <option value="jmu">Jammu, Jammu & Kashmir</option>
+                </select>&nbsp; &nbsp;
+                If your hometown is not in the list, please enter it manually with state: 
+                <input type="text">
+                <br>
+                <label for="currentcity"><b><span style="color: red;">*</span>Current city: </b></label>&nbsp;
+                <select name="currentcity" id="currentcity" style="border-radius: 20px;" required>
+                    <option value="select">Select</option>
+                    <option value="lko">Lucknow, Uttar Pradesh</option>
+                    <option value="be">Bareilly, Uttar Pradesh</option>
+                    <option value="hyd">Hyderabad, Telangana</option>
+                    <option value="bom">Mumbai, Maharashtra</option>
+                    <option value="noida">Noida, Uttar Pradesh</option>
+                    <option value="ndls">New Delhi</option>
+                    <option value="haldwani">Haldwani, Uttarakhand</option>
+                    <option value="chennai">Chennai, Tamil Nadu</option>
+                    <option value="kolkata">Kolkata, West Bengal</option>
+                    <option value="bengaluru">Bengaluru, Karnataka</option>
+                    <option value="chandigarh">Chandigarh</option>
+                    <option value="gurugram">Gurugram, Harayana</option>
+                    <option value="jmu">Jammu, Jammu & Kashmir</option>
+                </select>&nbsp; &nbsp;
+                If your current city is not in the list, please enter it manually with state: 
+                <input type="text">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Education</b></legend>
+            <div class="div2">
+                <table border="2 black" bgcolor="#131212" cellspacing="2" cellpadding="10px" align="center" style="width: 100%;">
+                    <thead class="lineheads">
+                        <th style="border-top-left-radius: 20px;">Type</th>
+                        <th>Name</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>From-To Class</th>
+                        <th style="border-top-right-radius: 20px;">From-To Year</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3"><b style="color: rgb(0, 162, 255)">School</b></td>
+                            <td><span style="color: red;">*</span><input type="text" required placeholder="e.g., CA"></td>
+                            <td><span style="color: red;">*</span><input type="text" required placeholder="e.g., Mumbai"></td>
+                            <td><span style="color: red;">*</span><input type="text" required placeholder="e.g., Maharshtra"></td>
+                            <td><span style="color: red;">*</span><input type="text" required placeholder="e.g., I-X"></td>
+                            <td><span style="color: red;">*</span><input type="text" required placeholder="e.g., 20XX-20XX"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="e.g., CA"></td>
+                            <td><input type="text" placeholder="e.g., Mumbai"></td>
+                            <td><input type="text" placeholder="e.g., Maharshtra"></td>
+                            <td><input type="text" placeholder="e.g., I-X"></td>
+                            <td><input type="text" placeholder="e.g., 20XX-20XX"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="e.g., CA"></td>
+                            <td><input type="text" placeholder="e.g., Mumbai"></td>
+                            <td><input type="text" placeholder="e.g., Maharshtra"   ></td>
+                            <td><input type="text" placeholder="e.g., I-X"></td>
+                            <td><input type="text" placeholder="e.g., 20XX-20XX"></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" style="border-bottom-left-radius: 20px; color: rgb(0, 162, 255)"><b>Coaching</b></td>
+                            <td><input type="text" placeholder="e.g., VMC"></td>
+                            <td><input type="text" placeholder="e.g., Lucknow"  ></td>
+                            <td><input type="text" placeholder="e.g., Uttar Pradesh"></td>
+                            <td><input type="text" placeholder="e.g., I-X"></td>
+                            <td><input type="text" placeholder="e.g., 20XX-20XX"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="e.g., VMC"></td>
+                            <td><input type="text" placeholder="e.g., Lucknow"></td>
+                            <td><input type="text" placeholder="e.g., Uttar Pradesh"></td>
+                            <td><input type="text" placeholder="e.g., I-X"></td>
+                            <td><input type="text" placeholder="e.g., 20XX-20XX"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="e.g., CBJr"></td>
+                            <td><input type="text" placeholder="e.g., Lucknow"></td>
+                            <td><input type="text" placeholder="e.g., Uttar Pradesh"></td>
+                            <td><input type="text" placeholder="e.g., I-X"></td>
+                            <td style="border-bottom-right-radius: 20px;"><input type="text" placeholder="e.g., 20XX-20XX"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Achievements</b></legend>
+            <div style="border-width: 2px; border-color: rgb(19, 18, 18); border-style: solid; border-radius: 20px; background-color: rgb(19, 18, 18); padding: 5px; font-size: 25px; text-align: left; letter-spacing: 2px; padding: 10px">
+                <textarea name="achievements" id="achievements" cols="154px" rows="10px" style="border-radius: 10px;">
+∙
+∙
+∙
+∙
+∙
+∙
+∙
+∙
+∙
+                </textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Contact Information</b></legend>
+            <div class="div1">
+                <label for="mob"><b><span style="color: red;">*</span>Mobile Number: </b></label>&nbsp;
+                <input type="tel" id="mob" name="mob" placeholder="12345XXXXX" pattern="[1-9]{1}[0-9]{9}" required>
+                <br>
+                <label for="altmob"><b>Alternative Mobile Number: </b></label>&nbsp;
+                <input type="tel" id="altmob" name="altmob" placeholder="12345XXXXX" pattern="[1-9]{1}[0-9]{9}">
+                <br>
+                <label for="landline"><b>Landline: </b></label>&nbsp;
+                <input type="tel" id="landline" name="landline" minlength="0" maxlength="12" placeholder="0XX(X)1234567">
+                <br>
+                <label for="email"><b><span style="color: red;">*</span>Email ID: </b></label>&nbsp;
+                <input type="email" id="telegram" name="telegram" placeholder="abc@xyz.com" required>
+                <br>
+                <label for="altemail"><b>Alternate Email ID: </b></label>&nbsp;
+                <input type="email" id="altemail" name="altemail" placeholder="abc@xyz.com">
+                <br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Social Media Profiles</b></legend>
+            <div class="div1">
+                <label for="instagram"><b>Instagram: </b></label>&nbsp;
+                <input type="text" id="instagram" name="instagram" placeholder="Username">
+                <br>
+                <label for="twitter"><b>Twitter: </b></label>&nbsp;
+                <input type="text" id="twitter" name="twitter" placeholder="Username">
+                <br>
+                <label for="github"><b>GitHub: </b></label>&nbsp;
+                <input type="text" id="github" name="github" placeholder="Username">
+                <br>
+                <label for="telegram"><b>Telegram: </b></label>&nbsp;
+                <input type="text" id="telegram" name="telegram" placeholder="Username">
+                <br>
+                <label for="reddit"><b>Reddit: </b></label>&nbsp;
+                <input type="text" id="reddit" name="reddit" placeholder="Username">
+            </div>
+        </fieldset>
+    </form>
+    <p style="font-size: 25px; padding-left: 20px; margin: 8px; text-align: left;"><span style="color: red;">*</span>required</p>
+    <div class="div3">
+        <input type="checkbox" name="t&c" style="vertical-align: middle;" required>&nbsp;
+        <label for="t&c"><span style="vertical-align: middle; color: white;">By proceeding, you agree to our Privacy Policy, User Agreement and T&Cs.</span></label>
+    </div>
+    <br>
+    <button align="center" class="button1" form="form1" type="reset"><b>RESET</b></button>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    <button align="center" class="button2" form="form1" type="submit" formaction="./VMC HTML - Homework 15 Solution Part 2.html"><b>SUBMIT</b></button>
+    <br><br><br><br>
+    <div class="footer">
+        <footer>
+            <b>COPYRIGHT &copy</b> | <b>India</b><br>
+            <b style="color: gold;">Designed by: </b><a href="https://www.instagram.com/arsh.saxena02" class="copyrightlink">Arsh Saxena</a> | <b style="color: gold;">Github: </b><a href="https://www.github.com/arshsaxena" class="copyrightlink">arshsaxena</a>
+        </footer>
+    </div>
+</body>
+</html>
