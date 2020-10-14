@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.profile{
+    text-align: center;
+}
+.header{
+    background-image: url(https://www.pcclean.io/wp-content/gallery/iron-hd-wallpapers/667555.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+}
+.name{
+    position: relative;
+    top: 100px;
+    color: white;
+    font-size: 80px;
+    font-family: cursive;
+}
+.about{
+    background-color: maroon;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.about .heading{
+    text-align: center;
+    font-size: 40px;
+    background-color: yellowgreen;
+    font-weight: 900;
+    position: sticky;
+    top: 60px;
+    z-index: 1;
+}
+.about .description{
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    color: white;
+  
+}
+.projects{
+    background-color: peru;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.projects .heading{
+    text-align: center;
+    font-size: 40px;
+    background-color: lightcoral;
+    font-weight: 900;
+    position: sticky;
+    top: 60px;
+    z-index: 1;
+}
+.projects .description{
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    color: white;  
+}
+.contact button{
+    border-radius: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 40px;
+    position: fixed;
+    bottom: 10px;
+    left: 0px;
+}
+.nav{
+    position: fixed;
+    top: 0px;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    width: 100%;
+    z-index: 2;
+}
