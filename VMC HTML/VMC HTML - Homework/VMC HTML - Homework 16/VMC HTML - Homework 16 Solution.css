@@ -1,0 +1,225 @@
+body{
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.asidelink{
+    text-decoration: none;
+}
+.copyrightlink{
+    text-decoration: none;
+}
+nav{
+    padding-right: 13px;
+    padding-top: 4px;
+    float: right; 
+    width: 50%; 
+    text-align: right; 
+    margin-top: 7px; 
+    color: rgb(250, 237, 119);
+}
+header{
+    text-align: left;
+}
+.maindiv{
+    background-color: rgb(24, 21, 21);
+    color: white;
+    border-radius: 20px;
+    border-style: solid;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    border-color: rgb(24, 21, 21);
+    box-shadow: 0px 0px 29px rgb(255, 0, 0);
+}
+.mainheading{
+    background-color: rgb(24, 21, 21);
+    color: rgb(250, 237, 119);
+    padding-left: 8px;
+    border-color: rgb(24, 21, 21);
+    box-shadow: 0px 0px 29px rgb(255, 0, 0);
+    border-radius: 15px;
+    border-style: solid;
+}
+.shinchanimg{
+    padding-left: 10px;
+}
+aside{
+    float: right; 
+    width: 25%; 
+    margin-top: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    border-color: rgb(24, 21, 21);
+    box-shadow: 0px 0px 29px rgb(255, 0, 0);
+    border-radius: 15px;
+    border-style: solid;
+    background-color: rgb(24, 21, 21);
+}
+.details{
+    line-height: 20px;
+}
+aside i{
+    font-size: 13px;
+}
+.asideheader{
+    text-align: center;
+    color: #ff0800;
+    background-color: rgb(250, 237, 119);
+}
+main{
+    width: 73%;
+}
+.mainheader{
+    text-align: center;
+    color: #ff0800;
+    background-color: rgb(250, 237, 119);
+}
+.source{
+    text-align: center;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+}
+.copyright b{
+    color: rgb(250, 237, 119);
+}
+.copyright{
+    text-align: center;
+    border-color: rgb(24, 21, 21);
+    box-shadow: 0px 0px 29px rgb(255, 0, 0);
+    border-radius: 15px;
+    border-style: solid;
+    background-color: rgb(24, 21, 21);
+}
+.quizheader{
+    text-align: center;;
+    color: #ff0800;
+    background-color: rgb(250, 237, 119);
+}
+.quizdiv{
+    border-color: rgb(24, 21, 21);
+    box-shadow: 0px 0px 29px rgb(255, 0, 0);
+    border-radius: 20px;
+    border-style: solid;
+    background-color: rgb(24, 21, 21);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.ques{
+    line-height: 10px;
+    font-size: 18px;
+}
+div.que1 input:valid{
+    background-color: lightgreen;
+}
+div.que1 input:invalid{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+div.que2 input:valid{
+    background-color: lightgreen;
+}
+div.que2 input:invalid{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+div.que3 input:in-range{
+    background-color: lightgreen;
+}
+div.que3 input:out-of-range{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+div.que4 input:valid{
+    background-color: lightgreen;
+}
+div.que4 input:invalid{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+div.que5 input:valid{
+    background-color: lightgreen;
+}
+div.que5 input:invalid{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+div.que6 input:valid{
+    background-color: lightgreen;
+}
+div.que6 input:invalid{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+div.que7 input:valid{
+    background-color: lightgreen;
+}
+div.que7 input:invalid{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+div.que8 input:valid{
+    background-color: lightgreen;
+}
+div.que8 input:invalid{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+div.que9 input:valid{
+    background-color: lightgreen;
+}
+div.que9 input:invalid{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+div.que10 input:valid{
+    background-color: lightgreen;
+}
+div.que10 input:invalid{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+div.que3 input:in-range+label::after{
+    content: 'Correct';
+}
+div.que3 input:out-of-range+label::before{
+    content: 'Wrong';
+}
+.maindiv div:first-of-type{
+    color: aquamarine;
+}
+.maindiv div:last-of-type{
+    color: cyan;
+    background-color: #54025f;
+}
+.maindiv div:last-child{
+    font-family: Product Sans;
+    font-size: 18px;
+}
