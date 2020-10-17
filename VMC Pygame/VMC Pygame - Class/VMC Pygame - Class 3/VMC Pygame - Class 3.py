@@ -41,7 +41,7 @@ bulletimg=pygame.image.load('imgs/bullet.png')
 bX=pX
 bY=pY
 bYchange=-10
-bSatate=0 #Ready
+bState=0 #Ready
 def fire_bullet(x, y):
     global bSatate
     bState=1 #Fire
