@@ -36,7 +36,7 @@
 • <b>Duration:</b> 45-60 minutes <br>
 • <b>Days:</b> Thursday and Sunday <br>
 • <b>Timings:</b> 08:00 PM to 09:00 PM <br>
-• <b>Mentor(s):</b> Rishab Bhiya 
+• <b>Mentor(s):</b> Rishab Bhaiya 
 <br><br>
 <h2>C++</h2>
 • <b>Start Date:</b> October 6, 2020 <br>
@@ -49,4 +49,4 @@
 • <b>Duration:</b> 45-60 minutes <br>
 • <b>Days:</b> Tuesday and Sunday <br>
 • <b>Timings:</b> 07:00 PM to 08:00 PM <br>
-• <b>Mentor(s):</b> Sabeel Bhiya 
+• <b>Mentor(s):</b> Sabeel Bhaiya 
