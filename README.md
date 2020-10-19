@@ -43,7 +43,6 @@ These repository contain all the class notes, homeworks (assignments), and their
 • <b>Timings:</b> 08:00 PM to 09:00 PM <br>
 • <b>Mentor(s):</b> Rishab Bhiya 
 <br><br>
-<br><br>
 <b>C++</b> <br>
 • <b>Start Date:</b> October 6, 2020 <br>
 • <b>End Date:</b> TBD <br>
