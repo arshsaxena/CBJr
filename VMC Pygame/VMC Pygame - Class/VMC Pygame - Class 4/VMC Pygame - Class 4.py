@@ -98,14 +98,10 @@ while running:
             running = False
 
         if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_LEFT: 
-                pXchange = -speed
-            if event.key == pygame.K_RIGHT: 
-                pXchange = speed
-            if event.key == pygame.K_UP: 
-                pYchange = -speed
-            if event.key == pygame.K_DOWN: 
-                pYchange = speed
+            if event.key == pygame.K_LEFT: pXchange = -speed
+            if event.key == pygame.K_RIGHT: pXchange = speed
+            if event.key == pygame.K_UP: pYchange = -speed
+            if event.key == pygame.K_DOWN: pYchange = speed
             if event.key == pygame.K_SPACE:
                 bSound = pygame.mixer.Sound('sounds/laser.wav')
                 bSound.play()
