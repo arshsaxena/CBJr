@@ -43,7 +43,7 @@ bY=pY
 bYchange=-10
 bState=0 #Ready
 def fire_bullet(x, y):
-    global bSatate
+    global bState
     bState=1 #Fire
     screen.blit(bulletimg, (x, y))
 
