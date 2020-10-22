@@ -21,9 +21,9 @@
 • <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvsCXqP9yAOZpzXHhWkLBXdw <br>
 <br>
 <b>Schedule</b><br>
-• <b>Frequency:</b> Twice a week <br>
+• <b>Frequency:</b> Four times a week <br>
 • <b>Duration:</b> 45-60 minutes <br>
-• <b>Days:</b> Wednesday and Friday <br>
+• <b>Days:</b> Monday, Tuesday, Wednesday, and Friday <br>
 • <b>Timings:</b> 08:00 PM to 09:00 PM <br>
 • <b>Mentor(s):</b> <a href="https://www.github.com/sanjeetboora">Sanjeet Maa'am</a> and Mosina Ma'am
 <br><br>
