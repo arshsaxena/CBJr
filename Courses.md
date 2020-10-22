@@ -10,7 +10,7 @@
 • <b>Frequency:</b> Twice a week <br>
 • <b>Duration:</b> 45-60 minutes <br>
 • <b>Days:</b> Sunday and Thursday <br>
-• <b>Timings:</b> 08:00 PM to 09:00 PM
+• <b>Timings:</b> 08:00 PM to 09:00 PM <br>
 • <b>Mentor(s):</b> Manmohan Bhaiya and <a href="https://www.github.com/rahulranghu">Rahul Bhaiya</a>
 <br><br>
 <h2>Web Development</h2>
@@ -24,7 +24,7 @@
 • <b>Frequency:</b> Twice a week <br>
 • <b>Duration:</b> 45-60 minutes <br>
 • <b>Days:</b> Wednesday and Friday <br>
-• <b>Timings:</b> 08:00 PM to 09:00 PM
+• <b>Timings:</b> 08:00 PM to 09:00 PM <br>
 • <b>Mentor(s):</b> <a href="https://www.github.com/sanjeetboora">Sanjeet Maa'am</a> and Mosina Ma'am
 <br><br>
 <h2>Game Development with Python (Pygame)</h2>
