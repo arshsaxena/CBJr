@@ -11,7 +11,7 @@
 • <b>Frequency:</b> Twice a week <br>
 • <b>Duration:</b> 45-60 minutes <br>
 • <b>Days:</b> Sunday and Thursday <br>
-• <b>Timings:</b> 08:00 PM to 09:00 PM <br>
+• <b>Timings:</b> 08:00 PM to 09:00 PM
 <br><br>
 <h2>Web Development</h2>
 • <b>Start Date:</b> August 5, 2020 <br>
