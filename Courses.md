@@ -4,7 +4,7 @@
 • <b>End Date:</b> September 14, 2020 <br>
 • <b>Last Quiz:</b> October 8, 2020 <br>
 • <b>Test Date:</b> October 25, 2020 <br>
-• <b>Mentor(s):</b> Manmohan Bhaiya and <a href="https://www.github.com/rahulranghu">Rahul Bhaiya</a>
+• <b>Mentor(s):</b> Manmohan Bhaiya and <a href="https://www.github.com/rahulranghu">Rahul Bhaiya</a><br>
 • <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvumawW64knIBSJuHALx3zBE <br>
 <br>
 <b>Schedule</b><br>
