@@ -1,0 +1,52 @@
+Courses taken by Arsh Saxena
+Python Basic
+• Start Date: July 23, 2020
+• End Date: September 14, 2020
+• Last Quiz: October 8, 2020
+• Test Date: October 18, 2020
+
+Schedule
+• Frequency: Twice a week
+• Duration: 45-60 minutes
+• Days: Sunday and Thursday
+• Timings: 08:00 PM to 09:00 PM
+• Mentor(s): Manmohan Bhaiya and Rahul Bhaiya
+
+Web Development
+• Start Date: August 5, 2020
+• End Date: TBD
+• Last Quiz: TBD
+• Test Date: TBD
+
+Schedule
+• Frequency: Twice a week
+• Duration: 45-60 minutes
+• Days: Wednesday and Friday
+• Timings: 08:00 PM to 09:00 PM
+• Mentor(s): Sanjeet Maa'am and Mosina Ma'am
+
+Game Development with Python (Pygame)
+• Start Date: October 8, 2020
+• End Date: TBD
+• Last Quiz: TBD
+• Test Date: TBD
+
+Schedule
+• Frequency: Twice a week
+• Duration: 45-60 minutes
+• Days: Thursday and Sunday
+• Timings: 08:00 PM to 09:00 PM
+• Mentor(s): Rishab Bhaiya
+
+C++
+• Start Date: October 6, 2020
+• End Date: TBD
+• Last Quiz: TBD
+• Test Date: TBD
+
+Schedule
+• Frequency: Twice a week
+• Duration: 45-60 minutes
+• Days: Tuesday and Sunday
+• Timings: 07:00 PM to 08:00 PM
+• Mentor(s): Sabeel Bhaiya
