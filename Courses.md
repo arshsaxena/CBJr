@@ -18,7 +18,7 @@
 • <b>End Date:</b> TBD <br>
 • <b>Last Quiz:</b> TBD <br>
 • <b>Test Date:</b> TBD <br>
-• <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvumawW64knIBSJuHALx3zBE <br>
+• <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvsCXqP9yAOZpzXHhWkLBXdw <br>
 <br>
 <b>Schedule</b><br>
 • <b>Frequency:</b> Twice a week <br>
@@ -32,7 +32,7 @@
 • <b>End Date:</b> TBD <br>
 • <b>Last Quiz:</b> TBD <br>
 • <b>Test Date:</b> TBD <br>
-• <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvumawW64knIBSJuHALx3zBE <br>
+• <b>Playlist:</b>  <br>
 <br>
 <b>Schedule</b><br>
 • <b>Frequency:</b> Twice a week <br>
@@ -46,7 +46,7 @@
 • <b>End Date:</b> TBD <br>
 • <b>Last Quiz:</b> TBD <br>
 • <b>Test Date:</b> TBD <br>
-• <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvumawW64knIBSJuHALx3zBE <br>
+• <b>Playlist:</b>  <br>
 <br>
 <b>Schedule</b><br>
 • <b>Frequency:</b> Twice a week <br>
