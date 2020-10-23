@@ -1,0 +1,9 @@
+Homework for Week 1 (8 October 2020 - 11 October 2020)
+
+1) Implement the feature of death when the snake touches the boundary.
+2) Implement the feature that snake goes in from right side boundary and the reappears on the left side (like in old Nokia snake game).
+
+
+It's not compulsory to  attempt both the parts.
+1) is mandatory
+2) is optional (:P)
