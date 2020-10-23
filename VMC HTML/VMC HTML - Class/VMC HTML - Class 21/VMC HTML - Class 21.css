@@ -1,0 +1,80 @@
+.parent{
+    width: 300px;
+    height: 300px;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    transition-property: top left width height background-color font-size color;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in-out;
+}
+.parent:hover .box{
+    /* transform: rotate(270deg); */
+    transform: rotate(0.3turn);
+    width: 300px;
+    height: 500px;
+    background-color: green;
+    font-size: 70px;
+    color: yellow;
+    top: 100px;
+    left: 300px;
+    position: absolute;
+    transition-property: top left width height background-color font-size color;
+    transition-timing-function: 100ms;
+    transition-timing-function: ease-in-out;
+    /* transition-delay: 1000ms; */
+}
+.parent1{
+    width: 300px;
+    height: 300px;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    font-size: 20px;
+    color: greenyellow;
+    left: 0px;
+    top: 300px;
+    position: absolute;
+    transition-property: top left width height background-color font-size color;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in-out;
+}
+.parent1:hover .box1{
+    /* transform: scale(2); */
+    /* transform: scale(0.5); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(0.5); */
+    /* transform: scale(0.5, 2); */
+    /* transform: scale3d(10); */
+    /* transform: skew(30deg); */
+    /* transform: skewX(50deg); */
+    /* transform: skewY(60deg); */
+    transform: skew(20deg, 40deg);
+    width: 150px;
+    height: 200px;
+    background-color: purple;
+    font-size: 45px;
+    color: pink;
+    top: -50px;
+    left: 300px;
+    position: absolute;
+    transition-property: top left width height background-color font-size color;
+    transition-timing-function: 100ms;
+    transition-timing-function: ease-in-out;
+    /* transition-delay: 1000ms; */
+}
