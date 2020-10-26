@@ -34,13 +34,15 @@
 • <b>Certificate Issue Date:</b> TBD <br>
 <br>
 <b>Schedule</b><br>
-• <b>Frequency:</b> Twice a week <br>
+• <b>Frequency:</b> Four times a week <br>
 • <b>Duration:</b> 45-60 minutes <br>
-• <b>Days:</b> Wednesday and Friday; <b>Assignment Solution Classes:</b> Monday and Tuesday <br>
+• <b>Assignment Solution Days:</b> Monday and Tuesday <br>
+• <b>Mentor(s):</b> Mosina Ma'am <br>
 • <b>Timings:</b> 08:00 PM to 09:00 PM <br>
-• <b>Mentor(s):</b> <a href="https://www.github.com/sanjeetboora">Sanjeet Maa'am</a> and Mosina Ma'am 
+• <b>Teaching Days:</b> Wednesday and Friday; <br>
+• <b>Timings:</b> 08:00 PM to 09:00 PM <br>
+• <b>Mentor(s):</b> <a href="https://www.github.com/sanjeetboora">Sanjeet Maa'am</a>
 <br><br>
-
 
 
 
@@ -63,6 +65,7 @@
 • <b>Timings:</b> 08:00 PM to 09:00 PM <br>
 • <b>Mentor(s):</b> Rishab Bhaiya 
 <br><br>
+
 
 
 <h2>C++ (Class XI)</h2>
