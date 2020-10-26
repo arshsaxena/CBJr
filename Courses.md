@@ -59,7 +59,7 @@
 <b>Schedule</b><br>
 • <b>Frequency:</b> Twice a week <br>
 • <b>Duration:</b> 45-60 minutes <br>
-• <b>Days:</b> Thursday and Sunday <br>
+• <b>Days:</b> Sunday and Thursday <br>
 • <b>Timings:</b> 08:00 PM to 09:00 PM <br>
 • <b>Mentor(s):</b> Rishab Bhaiya 
 <br><br>
@@ -80,6 +80,6 @@
 <b>Schedule</b><br>
 • <b>Frequency:</b> Twice a week <br>
 • <b>Duration:</b> 45-60 minutes <br>
-• <b>Days:</b> Tuesday and Sunday <br>
+• <b>Days:</b> Sunday and Tuesday<br>
 • <b>Timings:</b> 07:00 PM to 08:00 PM <br>
 • <b>Mentor(s):</b> Sabeel Bhaiya 
