@@ -65,7 +65,7 @@
 <br><br>
 
 
-<h2>C++</h2>
+<h2>C++ (Class XI)</h2>
 • <b>Start Date:</b> October 6, 2020 <br>
 • <b>End Date:</b> TBD <br>
 • <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvuFH1qIX4I4khSj_JE6kxGF <br>
