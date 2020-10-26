@@ -1,0 +1,66 @@
+import pygame
+pygame.init()
+
+#SCREEN
+screen = pygame.display.set_mode((800,600))
+
+#TITLE
+pygame.display.set_caption("SNAKE GAME")
+
+# VARIABLE TO CHECK IF THE GAME IS RUNNNING OR STOPPED
+running = True
+
+#SNAKE BODY
+snake_pos = [ [300, 300], [340, 300], [380, 300], [420, 300] ]
+
+#DIRECTIONS
+step = 30
+up = (0, -step)
+left = (-step, 0) 
+right = (step, 0)
+down = (0, step)
+direction = left
+
+#TIMER
+timer = 0
+
+#MAIN GAME LOOP
+while running:
+    pygame.time.Clock().tick(30)  #DELAY
+    #RGB = RED BLUE GREEN (0-255)
+    screen.fill( (20, 100, 20) )
+
+    for event in pygame.event.get():  #
+
+        #QUIT
+        if event.type == pygame.QUIT:
+            print("QUIT")
+            running = False
+
+        #KEY PRESS
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_DOWN:
+                direction = down
+                print("DOWN")
+
+            elif event.key == pygame.K_UP:
+                direction = up
+                print("UP")
+
+            elif event.key == pygame.K_LEFT:
+                direction = left
+                print("LEFT")
+
+            elif event.key == pygame.K_RIGHT:
+                direction = right
+                print("RIGHT")
+
+    timer += 1
+    if timer == 5:
+        snake_pos=[[snake_pos[0][0]+direction[0],snake_pos[0][1]+direction[1]]]+snake_pos[:-1]
+        timer = 0
+
+    for x,y in snake_pos:
+        pygame.draw.circle(screen, (255,0,0), (x,y), 20) 
+
+    pygame.display.update()  #UPDATE
