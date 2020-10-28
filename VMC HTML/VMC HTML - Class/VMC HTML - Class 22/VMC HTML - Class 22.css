@@ -1,0 +1,44 @@
+.bigger{
+    background-color: yellow;
+    padding: 10px;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+}
+.smaller{
+    background-color: green;
+    width: 33%;
+    color: white;
+    display: flex;
+}
+/* Mobiles and Tabs */
+@media only screen and (max-width: 475px){
+    .smaller{
+        background-color: red;
+        width: 100%;
+        font-size: 20px;
+        display: none;
+    }
+    .bigger{
+        display: block;
+    }
+}
+/* Laptops */
+@media only screen and (min-width: 992px){
+    .smaller{
+        background-color: blue;
+        width: 33%;
+        font-size: 50px;
+        display: flex;
+    }
+    .bigger{
+        background-color: yellowgreen;
+        display: flex;
+        text-align: center;
+    }
+}
+@media only screen and (oreientation: landscape){
+    body{
+        background-color: magenta;
+    }
+}
