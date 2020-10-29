@@ -1,0 +1,9 @@
+Homework for Week 2(17 October 2020 - 18 October 2020)
+
+1) Welcome page for the game (press SPACE to begin)
+2) Increase the number of aliens
+3) As the aliens come down in Y-axis, increase the speed of the aliens
+4) When the spaceship comes close to the aliens; Game Over
+
+AIM: Attempt and solve any 3/4
+(4th is compulsory :P)
