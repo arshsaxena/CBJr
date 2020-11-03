@@ -29,7 +29,7 @@ Pipes.append(pipe2)
 
 def draw_pipe(PIPE):
     screen.blit(pipeupimg, (PIPE[0], PIPE[1]))
-    screen.blit(pipeupimg, (PIPE[0], PIPE[1]+420))
+    screen.blit(pipedownimg, (PIPE[0], PIPE[1]+420))
 
 #Score
 score=0
