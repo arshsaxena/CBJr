@@ -1,0 +1,7 @@
+Homework for Week 3 (22 October 2020 - 25 October 2020)
+
+1) Make a Display Page saying "PRESS SPACE TO BEGIN"
+2) Add Delay in the game using ticks to hear hitsound and diesound
+
+(1st is mandatory)
+(2nd is optional)
