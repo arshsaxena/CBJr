@@ -1,0 +1,8 @@
+Homework for Week 4 (29 October 2020 - 1 November 2020)
+
+1) Change the colors of paddles & the ball
+2) Change the color of the ball when it hits the paddle
+3) Increase the speed of the ball after every point scored by 0.5
+4) Add the option to select color of the paddles in the Menu page
+
+AIM: Attempt and solve any 3/4
