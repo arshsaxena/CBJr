@@ -1,5 +1,5 @@
 # VMC-CBJr
-These repository contain all the class notes, homeworks (assignments), and their solutions of the languages mentioned below taught on <b>Coding Blocks Junior YouTube channel</b>.<br><br>
+These repository contain all the class notes, homeworks (assignments), and their solutions of the courses mentioned below taught on <b>Coding Blocks Junior YouTube channel</b>.<br><br>
 <b>C++ (Class XI): </b>Sabeel Bhaiya,<br>
 <b>Python Basic:</b> Manmohan Bhaiya and Rahul Bhaiya, <br>
 <b>Python Game Development (Pygames):</b> Rishab Bhaiya, and<br>
