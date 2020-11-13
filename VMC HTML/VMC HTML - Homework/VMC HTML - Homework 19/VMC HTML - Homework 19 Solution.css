@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.maindiv p .name{
+    font-size: 85px;
+    color: lawngreen;
+    letter-spacing: 2px;
+    transition-property: font-size;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.maindiv p .name:hover{
+    font-size: 105px;
+    cursor: default;
+}
+.maindiv p .website{
+    font-size: 35px;
+    transition-property: font-size;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.maindiv p .website:hover{
+    font-size: 55px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* Images Line 1 */
+.imgdiv .line1 img{
+    width: 900px;
+    border-radius: 25px;
+    transition-property: transform box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    box-shadow: 25px 25px 10px rgb(39, 39, 39);
+}
+.imgdiv .line1 img:hover{
+    transform: translate(-15px, -15px);
+    box-shadow: 35px 35px 10px rgb(27, 27, 27);
+}
+/* Images Line 2 */
+.imgdiv .line2 img{
+    height: 500px;
+    border-radius: 25px;
+}
+.imgdiv .line2 .img1{
+    height: 500px;
+    box-shadow: -15px -15px 10px red;
+    transition-property: transform box-shadow zoom;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.imgdiv .line2 .img1:hover{
+    transform: translate(25px, 25px) scale(1.1);
+    box-shadow: -45px -45px 10px rgb(27, 27, 27);
+}
+.imgdiv .line2 .img2{
+    height: 500px;
+    box-shadow: 0px -15px 10px yellow;
+    transition-property: transform box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.imgdiv .line2 .img2:hover{
+    transform: translate(0px, 25px) scale(1.1);
+    box-shadow: 0px -45px 10px rgb(27, 27, 27);
+}
+.imgdiv .line2 .img3{
+    height: 500px;
+    box-shadow: 15px -15px 10px green;
+    transition-property: transform box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.imgdiv .line2 .img3:hover{
+    transform: translate(-25px, 25px) scale(1.1);
+    box-shadow: 45px -45px 10px rgb(27, 27, 27);
+}
+/* Images Line 3 */
+.imgdiv .line3 img{
+    border-radius: 25px;
+    height: 500px;
+}
+.imgdiv .line3 .img1{
+    height: 500px;
+    box-shadow: -15px 15px 10px rgb(0, 119, 255);
+    transition-property: transform box-shadow zoom;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.imgdiv .line3 .img1:hover{
+    transform: translate(25px, -25px) scale(1.1);
+    box-shadow: -45px 45px 10px rgb(27, 27, 27);
+}
+.imgdiv .line3 .img2{
+    height: 500px;
+    box-shadow: 0px 15px 10px orangered;
+    transition-property: transform box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.imgdiv .line3 .img2:hover{
+    transform: translate(0px, -25px) scale(1.1);
+    box-shadow: 0px 45px 10px rgb(27, 27, 27);
+}
+.imgdiv .line3 .img3{
+    height: 500px;
+    box-shadow: 15px 15px 10px rgb(165, 0, 165);
+    transition-property: transform box-shadow;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.imgdiv .line3 .img3:hover{
+    transform: translate(-25px, -25px) scale(1.1);
+    box-shadow: 45px 45px 10px rgb(27, 27, 27);
+}
