@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "SF Pro Text";
+    src: url('https://github.com/arshsaxena/arshsaxena.github.io/blob/main/resources/first-page/fonts/font-regular.otf?raw=true');
+}
+@font-face{
+    font-family: "SF Pro Text Bold";
+    src: url('https://github.com/arshsaxena/arshsaxena.github.io/blob/main/resources/first-page/fonts/font-bold.otf?raw=true');
+}
+@font-face{
+    font-family: "SF Pro Italic";
+    src: url('../../resources/first-page/fonts/font-italic.otf');
+}
+body{
+    text-align: center;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-family: SF Pro Text;
+}
+.mainspan{
+    font-size: 40px;
+    color: rgb(60, 218, 60);
+}
+.subspan{
+    font-size: 35px;
+}
+.subspan b{
+    color: rgb(250, 83, 83);
+}
+.sub-subspan{
+    color: white;
+}
+.sub-subspan a{
+    color: white;
+}
+.sub-subspan a:hover{
+    font-size: 45px;
+    color: greenyellow;
+}
+.homework-links{
+    font-size: 30px;
+}
+.heads{
+    color: rgb(82, 197, 243);
+}
+.html{
+    float: left;
+    width: 33.33%;
+}
+.css{
+    float: left;
+    width: 33.33%;
+}
+.javascript{
+    float: left;
+    width: 33.33%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition-property: font-size color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+a:hover{
+    font-size: 40px;
+    color: coral;
+}
+/* Scrollbar */
+body::-webkit-scrollbar {
+    background-color: rgba(255, 255, 255, 0);
+    width: 18px;
+}
+body::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #424649;
+}
+body::-webkit-scrollbar-button {
+    display:none;
+}
