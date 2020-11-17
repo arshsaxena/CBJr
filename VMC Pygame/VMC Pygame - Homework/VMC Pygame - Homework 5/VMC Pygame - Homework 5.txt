@@ -1,0 +1,7 @@
+Homework for Week 5 (5 November 2020 - 7 November 2020)
+
+Add the functionality to set Difficulty (Easy, Medium, Hard) on the menu page. Decrease the 1000 millisecond timer and size of the tile with each level.
+
+Easy: 1000, (100,100)
+Medium: 800, (80,80)
+Hard: 600, (60,60)
