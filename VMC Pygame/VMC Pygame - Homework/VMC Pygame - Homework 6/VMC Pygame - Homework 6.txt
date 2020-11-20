@@ -1,0 +1,7 @@
+Homework for Week 6(12 November 2020)
+
+1) Add more sentences.
+2) Increase the maximum sentence size and adjust the yellow & green boxes accordingly.
+3) Make the word go green, if the word typed is correct.
+
+(3rd is optional)
