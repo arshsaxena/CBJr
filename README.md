@@ -3,7 +3,7 @@ These repository contain all the class notes, homeworks (assignments), and their
 <b>C++ (Class XI): </b>Sabeel Bhaiya,<br>
 <b>Python Basic:</b> Manmohan Bhaiya and Rahul Bhaiya, <br>
 <b>Python Game Development (Pygames):</b> Rishab Bhaiya, and<br>
-<b>Web Development (HTML, CSS, JavaScript, Bootstrap):</b> Sanjeet Ma'am and Mosina Ma'am.<br>
+<b>Web Development (HTML, CSS, JavaScript, and Bootstrap):</b> Sanjeet Ma'am and Mosina Ma'am.<br>
 <br><br>
 I suggest you not to copy homework solutions and if you do so, I would be claiming copyright.
 <br><br>
