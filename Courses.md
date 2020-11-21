@@ -29,7 +29,7 @@
 • <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvst8UEBSOGMXmSjPsSODzwb<br>
 • <b>First Quiz:</b> September 12, 2020 <br>
 • <b>Last Quiz:</b> TBD <br>
-• <b>Total Quizzes:</b> 08 <br>
+• <b>Total Quizzes:</b> 09 <br>
 • <b>First Test Date:</b> TBD <br>
 • <b>Second Test Date:</b> TBD <br>
 • <b>Test Result Date:</b> TBD <br>
