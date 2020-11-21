@@ -35,6 +35,7 @@
 • <b>Second Test Date:</b> TBD <br>
 • <b>Test Result Date:</b> TBD <br>
 • <b>Certificate Issue Date:</b> TBD <br>
+• <b>Certificate Received Date:</b> TBD <br>
 <br>
 <b>Schedule</b><br>
 • <b>Frequency:</b> Four times a week <br>
@@ -60,6 +61,7 @@
 • <b>Second Test Date:</b> TBD <br>
 • <b>Test Result Date:</b> TBD <br>
 • <b>Certificate Issue Date:</b> TBD <br>
+• <b>Certificate Received Date:</b> TBD <br>
 <br>
 <b>Schedule</b><br>
 • <b>Frequency:</b> Twice a week <br>
@@ -82,6 +84,7 @@
 • <b>Second Test Date:</b> TBD <br>
 • <b>Test Result Date:</b> TBD <br>
 • <b>Certificate Issue Date:</b> TBD <br>
+• <b>Certificate Received Date:</b> TBD <br>
 <br>
 <b>Schedule</b><br>
 • <b>Frequency:</b> Twice a week <br>
