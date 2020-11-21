@@ -9,8 +9,9 @@
 • <b>Total Quizzes:</b> 03 <br>
 • <b>First Test Date:</b> October 18, 2020 <br>
 • <b>Second Test Date:</b> October 25, 2020 <br>
-• <b>Test Result Date:</b> TBD <br>
-• <b>Certificate Issue Date:</b> TBD <br>
+• <b>Test Result Date:</b> November 21, 2020 <br>
+• <b>Certificate Issue Date:</b> November 21, 2020 <br>
+• <b>Certificate Received Date:</b> November 21, 2020 <br>
 <br>
 <b>Schedule</b><br>
 • <b>Frequency:</b> Twice a week <br>
