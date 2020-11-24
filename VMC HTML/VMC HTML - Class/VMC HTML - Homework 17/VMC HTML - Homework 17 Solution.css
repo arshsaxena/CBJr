@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.nav{
+    text-align: center;
+    font-weight: 900;
+    position: fixed;
+    top: 0px;
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    width: 100%;
+    z-index: 2;
+}
+.profile{
+    text-align: justify;
+}
+.header{
+    background-image: url(./top-full-hd-lion-wallpaper-for-computers-picture-1-A2aJCFhor.jpg);
+    background-repeat: round;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+}
+.name{
+    position: relative;
+    top: 100px;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+.about{
+    background-color:green;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    color: white;
+}
+.about .heading{
+    text-align: center;
+    font-size: 40px;
+    background-color: orangered;
+    font-weight: 900;
+    position: sticky;
+    top: 60px;
+    z-index: 1;
+}
+.about .description{
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    color: white;
+}
+.descriptiondiv{
+    background-color: red;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.descriptiondiv .heading{
+    text-align: center;
+    font-size: 40px;
+    background-color: yellow;
+    font-weight: 900;
+    position: sticky;
+    top: 60px;
+    z-index: 1;
+}
+.descriptiondiv .description{
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    color: white;  
+}
+.conservation{
+    background-color: rgb(214, 4, 214);
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.conservation .heading{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(4, 154, 255);
+    font-weight: 900;
+    position: sticky;
+    top: 60px;
+    z-index: 1;
+    color: white;
+}
+.conservation .description{
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    color: white;  
+}
+.contact .button1{
+    border-radius: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 40px;
+}
+.contact .button2{
+    border-radius: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+}
