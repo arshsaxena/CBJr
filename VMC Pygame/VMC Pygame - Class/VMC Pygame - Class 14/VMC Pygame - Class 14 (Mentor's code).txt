@@ -1,0 +1,192 @@
+#Assets: bit.ly/33mIVru
+
+import pygame
+import random
+
+pygame.init()
+
+SCREEN_WIDTH = 640
+SCREEN_HEIGHT = 480
+HALF_SCREEN_HEIGHT = SCREEN_HEIGHT//2
+
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+
+light_road = pygame.image.load('assets//imgs/light_road.png')
+dark_road = pygame.image.load('assets/imgs/dark_road.png')
+car = pygame.image.load('assets/imgs/car.png')
+truck = pygame.image.load('assets/imgs/truck.png')
+rock = pygame.image.load('assets/imgs/rock.png')
+health = pygame.image.load('assets/imgs/health.png')
+health_sound = pygame.mixer.Sound('assets/sounds/health.wav')
+rock_sound = pygame.mixer.Sound('assets/sounds/rock.wav')
+
+texture_position = 0
+ddz = 0.001
+dz = 0
+z = 0
+
+road_pos = 0
+road_acceleration = 80
+texture_position_acceleration = 4
+texture_position_threshold = 300
+half_texture_position_threshold = texture_position_threshold//2
+
+car_x = 260
+car_y = 360
+stone_y = 240
+stone_x = random.randint(250,350)
+health_x = random.randint(250,350)
+health_y = 240
+
+state = 0
+
+
+#score
+score = 0
+font = pygame.font.Font('freesansbold.ttf', 32)
+sCoord = (10,10)
+def score_print(scr):
+    screen.blit(font.render("Score: "+str(scr), True, (0,0,0)), sCoord)
+
+#collision
+def isCollided(Cx, Cy, Sx, Sy):
+    if Cx+20<Sx+15<Cx+110 and Cy+20<Sy+11<Cy+110:
+        return True
+    return False
+
+def draw_lifes(l):
+    pygame.draw.rect(screen, (200,0,0), (600-30*4, 10, 30*5, 15))
+    lifes = l
+    for i in range(lifes):
+        pygame.draw.rect(screen, (0,200,0), (600-30*i, 10, 30, 15))
+
+l = []
+life = 5
+game = 1
+start_time = pygame.time.get_ticks()
+life_time = pygame.time.get_ticks()
+health_peice = 0
+while True:
+    pygame.time.Clock().tick(30)
+    screen.fill((135,206,235))
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+
+    keys = pygame.key.get_pressed()
+
+    if keys[pygame.K_RIGHT]:
+        car_x += 5
+        if car_x >= 450:
+            car_x -= 5
+
+    if keys[pygame.K_LEFT]:
+        car_x -= 5
+        if car_x <= 50:
+            car_x += 5
+
+    if keys[pygame.K_SPACE]:
+        life = 0
+    
+    if keys[pygame.K_DOWN]:
+        life = 5
+
+    texture_position = road_pos
+    dz = 0
+    z = 0
+
+    for i in range(HALF_SCREEN_HEIGHT-1,-1,-1):
+        if texture_position < half_texture_position_threshold:
+            screen.blit(light_road, (0,i+HALF_SCREEN_HEIGHT), (0,i,SCREEN_WIDTH, 1))
+        else:
+            screen.blit(dark_road, (0,i+HALF_SCREEN_HEIGHT), (0,i,SCREEN_WIDTH, 1))
+        dz += ddz
+        z += dz
+        texture_position += texture_position_acceleration + z
+        if texture_position >= texture_position_threshold:
+            texture_position = 0
+    
+    if life>0:
+        road_pos += road_acceleration
+        if road_pos >= texture_position_threshold:
+            road_pos = 0
+
+    #STONE
+    game_time = pygame.time.get_ticks()
+    if game_time - start_time > 1000 and state == 0:
+        state = 1
+        stone_x = random.randint(250,350)
+        stone_y = 240
+        chng = 0
+
+    if state == 1 and life>0 and game==1:
+        stone_y += 5
+        if stone_x<270: chng = -4
+        elif stone_x>330: chng = 4
+        stone_x += chng
+        screen.blit(rock, (stone_x,stone_y))
+        
+        collided = isCollided(car_x, car_y, stone_x, stone_y)
+        if state == 1 and collided:
+            rock_sound.play()
+            state = 0
+            life -=1
+            start_time = pygame.time.get_ticks()
+
+        if stone_y >= 480:
+            state = 0
+            start_time = pygame.time.get_ticks()
+
+
+    #HEALTH
+    game_life_time = pygame.time.get_ticks()
+    if game_life_time - life_time >10000 or health_peice == 1:
+        #print("LIFE COMING")
+        health_peice = 1
+        game = 0
+        health_y += 5
+        if health_x<270: chng = -4
+        elif health_x>330: chng = 4
+        health_x += chng
+        screen.blit(health, (health_x, health_y))
+        #print(health_x,health_y)
+        collided_health = isCollided(car_x, car_y, health_x, health_y)
+        if collided_health:
+            health_sound.play()
+            health_peice = 0
+            game = 1
+            life +=1
+            #print("----------------------------------------------------")
+            if life>5:
+                life=5
+            health_x = random.randint(250,350)
+            health_y = 240
+            start_time = pygame.time.get_ticks()
+        
+        if health_y > 480:
+            game = 1
+            #print("----------------------------------------------------")
+            health_y = 240
+            health_x = random.randint(250,350)
+            health_peice = 0
+        life_time = pygame.time.get_ticks()
+
+
+
+    screen.blit(car, (car_x,car_y))
+    screen.blit(truck, (270, 210))
+
+    score_print(score)
+    draw_lifes(life)
+
+    pygame.display.update()
+
+
+
+
+'''
+pygame.draw.aaline(screen, (200,0,0), (car_x+20,car_y+20), (car_x+110,car_y+20), 3)
+pygame.draw.aaline(screen, (200,0,0), (car_x+20,car_y+110), (car_x+110,car_y+110), 3)
+pygame.draw.aaline(screen, (200,0,0), (car_x+20,car_y+20), (car_x+20,car_y+110), 3)
+pygame.draw.aaline(screen, (200,0,0), (car_x+110,car_y+20), (car_x+110,car_y+110), 3)
+'''
