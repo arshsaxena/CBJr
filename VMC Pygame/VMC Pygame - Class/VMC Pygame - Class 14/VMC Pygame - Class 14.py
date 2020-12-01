@@ -1,4 +1,4 @@
-# Might might have some bugs
+# Might have some bugs
 # It is a bit different from mentor's code
 import pygame
 import random
