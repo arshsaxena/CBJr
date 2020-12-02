@@ -1,0 +1,10 @@
+Homework for Week 7 (26 November 2020 - 29 November 2020)
+
+1) Implement a Display/Menu Page 'Press Space to begin'.
+2) Add a difficulty menu (Easy, Medium, Hard), increase the speed and decrease the time interval of the stone coming.
+3) Add engine start sound when the game starts & car moving/turning sound during the gameplay.
+4) Add more elements like garbage, cans, cars along with the rock, to make the game more interesting.
+5) Make the blue background change (yellow -> red -> blue -> black) when score reaches 10, 20, 30... (multiples of 10).
+6) Make the upper blue background dynamic (yellow -> red -> blue -> black) giving the effect of day and night. [HINT: change screen.fill()]
+
+AIM: Attempt and solve any 4/6
