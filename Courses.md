@@ -24,7 +24,7 @@
 
 
 <h2>Web Development</h2>
-<b>Website: </b> https://arshsaxena.github.io/VMC-CBJr-WebDevelopment-Homeworks/ <br>
+<b>Homeworks webpae: </b> https://arshsaxena.github.io/VMC-CBJr-WebDevelopment-Homeworks/ <br>
 • <b>Start Date:</b> August 5, 2020 <br>
 • <b>End Date:</b> TBD <br>
 • <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvst8UEBSOGMXmSjPsSODzwb<br>
