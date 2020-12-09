@@ -1,7 +1,0 @@
-In class 1, only Introduction to C++ was there.
-Link: https://www.youtube.com/watch?v=SgH6NNRI6ts
-Teacher: Sabeel Khan
-Date: October 6, 2020
-Day: Sunday
-From: 7:00 PM
-To: 8:00 PM
