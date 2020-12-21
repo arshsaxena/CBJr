@@ -57,8 +57,8 @@
 • <b>Start Date:</b> October 8, 2020 <br>
 • <b>End Date:</b> TBD <br>
 • <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvst8UEBSOGMXmSjPsSODzwb <br>
-• <b>Project showcases:</b> 01 <br>
-• <b>Doubt-solving classes on Zoom:</b> 01 <br>
+• <b>Project showcase(s):</b> 01 <br>
+• <b>Doubt-solving class(es) on Zoom:</b> 01 <br>
 • <b>First Test Date:</b> TBD <br>
 • <b>Second Test Date:</b> TBD <br>
 • <b>Test Result Date:</b> TBD <br>
