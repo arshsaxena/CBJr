@@ -58,7 +58,7 @@
 • <b>End Date:</b> TBD <br>
 • <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvst8UEBSOGMXmSjPsSODzwb <br>
 • <b>Project showcase(s):</b> 02 <br>
-• <b>Doubt-solving class(es) on Zoom:</b> 02 <br><br>
+• <b>Doubt-solving class(es) on Zoom:</b> 02 <br>
 • <b>First Test Date (Certification project):</b> January 12, 2021 - January 15, 2021<br>
 • <b>Test Result Date:</b> TBD <br>
 • <b>Certificate Issue Date:</b> TBD <br>
