@@ -1,6 +1,6 @@
 <h1>Courses taken by <a href="https://www.instagram.com/arsh.saxena02">Arsh Saxena</a></h1>
 <p>These courses were taught by mentors of <a href="jr.codingblocks.com">Coding Blocks Junior</a> on <a href="https://www.youtube.com/channel/UC8lf0KIoz_PMaYCDx4q0pDA">YouTube</a>.</p>
-<h2>Python Basic</h2>
+<h2>Python Basic: Completed</h2>
 • <b>Start Date:</b> July 23, 2020 <br>
 • <b>End Date:</b> September 14, 2020 <br>
 • <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvumawW64knIBSJuHALx3zBE <br>
@@ -23,7 +23,7 @@
 
 
 
-<h2>Web Development</h2>
+<h2>Web Development: Completed</h2>
 <b>Homeworks webpage: </b> https://arshsaxena.github.io/VMC-CBJr-WebDevelopment-Homeworks/ <br>
 • <b>Start Date:</b> August 5, 2020 <br>
 • <b>End Date:</b> December 16, 2020 <br>
@@ -53,7 +53,7 @@
 
 
 
-<h2>Game Development with Python (Pygame)</h2>
+<h2>Game Development with Python (Pygame): Completed</h2>
 • <b>Start Date:</b> October 8, 2020 <br>
 • <b>End Date:</b> January 5, 2021 <br>
 • <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvst8UEBSOGMXmSjPsSODzwb <br>
