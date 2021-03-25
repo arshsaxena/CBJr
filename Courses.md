@@ -31,8 +31,8 @@
 • <b>First Quiz:</b> September 12, 2020 <br>
 • <b>Last Quiz:</b> November 28, 2020 <br>
 • <b>Total Quizzes:</b> 10 <br>
-• <b>First Test Date:</b> TBD <br>
-• <b>Second Test Date:</b> TBD <br>
+• <b>Test Date (Certification project):</b> March 26, 2021 - March 29, 2021<br>
+• <b>Test Date (MCQ):</b> March 27, 2021<br>
 • <b>Test Result Date:</b> TBD <br>
 • <b>Certificate Issue Date:</b> TBD <br>
 • <b>Certificate Received Date:</b> TBD <br>
@@ -59,7 +59,7 @@
 • <b>Playlist:</b> https://www.youtube.com/playlist?list=PLhLbJ9UoJCvst8UEBSOGMXmSjPsSODzwb <br>
 • <b>Project showcase(s):</b> 02 <br>
 • <b>Doubt-solving class(es) on Zoom:</b> 02 <br>
-• <b>First Test Date (Certification project):</b> January 12, 2021 - January 15, 2021<br>
+• <b>Test Date (Certification project):</b> January 12, 2021 - January 15, 2021<br>
 • <b>Test Result Date:</b> January 24, 2021 <br>
 • <b>Certificate Issue Date:</b> January 15, 2021 <br>
 • <b>Certificate Received Date:</b> February 3, 2021 <br>
