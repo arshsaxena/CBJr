@@ -1,14 +1,14 @@
 @font-face {
     font-family: "font-regular";
-    src: url('./fonts/font.otf');
+    src: url('/fonts/font.otf');
 }
 @font-face{
     font-family: "font-bold";
-    src: url('./fonts/font-bold.otf');
+    src: url('/fonts/font-bold.otf');
 }
 @font-face{
     font-family: "font-italic";
-    src: url('./fonts/font-italic.otf');
+    src: url('/fonts/font-italic.otf');
 }
 html{
     overflow-x: hidden;
