@@ -33,9 +33,9 @@
 • <b>Total Quizzes:</b> 10 <br>
 • <b>Test Date (Certification project):</b> March 26, 2021 - March 29, 2021<br>
 • <b>Test Date (MCQ):</b> March 27, 2021<br>
-• <b>Test Result Date:</b> TBD <br>
-• <b>Certificate Issue Date:</b> TBD <br>
-• <b>Certificate Received Date:</b> TBD <br>
+• <b>Test Result Date:</b> April 6, 2021 <br>
+• <b>Certificate Issue Date:</b> March 26, 2021 <br>
+• <b>Certificate Received Date:</b> April 6, 2021 <br>
 • <b>Featured:</b><br>
 <a href="https://www.instagram.com/p/CIVoFnTHisL/">https://www.instagram.com/p/CIVoFnTHisL/</a><br>
 <a href="https://www.instagram.com/p/CIsSJmrnvUb/">https://www.instagram.com/p/CIsSJmrnvUb/</a><br>
